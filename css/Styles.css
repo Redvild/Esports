@@ -268,7 +268,8 @@ background-color: #111111;
 }
 @media all and (max-width:991px) and (min-width:768px) {
 	.navbar-nav {
-	width: 70%;
+	width: 90%;
+		margin-left:2em;
 }
 }
 @media all and (max-width:767px) and (min-width:576px) {
