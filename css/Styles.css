@@ -336,10 +336,10 @@ width:700px;
 }
 }
 @media all and (max-width:767px) and (min-width:576px) {
-	_:-o-prefocus, section{
+_:-o-prefocus, section{
 width:100%;
 }
-		_:-o-prefocus, #main{
+_:-o-prefocus, #main{
 width:100%;
 }
 _:-o-prefocus, aside > .row{
