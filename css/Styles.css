@@ -128,7 +128,7 @@ section p {
 }
 .date_news, .views_news, .tweets_news, .facebook_news, .read_more_news {
 	display: inline-block;
-	width: 70px;
+	width: 80px;
 	padding: .2em;
 	margin-bottom: .5em;
 	vertical-align:middle;
@@ -144,6 +144,9 @@ section p {
 }
 .facebook_news {
 	background-color: #2f81c0;
+}
+.read_more_news {
+	padding: .5em 0;
 }
 .rate img, .rate p {
 	display: inline-block;
@@ -280,6 +283,7 @@ background-color: #111111;
 #from_twitter img {
 	height: 100%;
 	margin-right: 10px;
+	width: auto;
 }
 #from_twitter p:not(:first-child) {
 	display: inline;
