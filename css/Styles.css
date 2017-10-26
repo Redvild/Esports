@@ -290,13 +290,12 @@ background-color: #111111;
 	flex-direction: row;
 }
 #from_twitter img {
-	height: 100%;
 	margin-right: 10px;
 	width: auto;
 }
 #from_twitter p:not(:first-child) {
 	display: inline;
-	color: white;
+	color: #9c9c9c;
 	font-size: .6em;
 	margin: 0;
 	padding: 0;
