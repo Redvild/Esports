@@ -103,7 +103,7 @@ section {
 section h3 {
 	color:#484848;
 	border-left:2px solid #d13f4a;
-	font-size:1.3em;
+	font-size:1.2em;
 	padding-left: 1em;
 	letter-spacing: 3px;
 	font-weight: 700;
@@ -178,6 +178,12 @@ aside #gallery .row {
 aside .caption_header {
 	background-color: #181818;
 }
+aside #sponsors .caption_header {
+	margin: 1em 0;
+}
+aside #latest_video .caption_header {
+	margin: 0 0 1em;
+}
 #divisions li, #sponsors li, #from_twitter li {
 	list-style: none;
 	display: block;
@@ -231,6 +237,9 @@ background-color: #111111;
 }
 #gallery img {
 	margin-bottom: 4px;
+}
+#sponsors {
+	margin: 0;
 }
 #sponsors p:not(:first-child){
 	display: inline-block;
@@ -291,6 +300,7 @@ background-color: #111111;
 	font-size: .6em;
 	margin: 0;
 	padding: 0;
+	font-style: italic;
 }
 @media all and (max-width:1199px) and (min-width:992px) {
 	#gallery img {
