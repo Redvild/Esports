@@ -349,10 +349,7 @@ background-color: #111111;
 }
 }
  /* MOZILLA*/
-@-moz-document url-prefix() {
-	section, section .row .rate, aside {
-		float:left;
-	}
+
 	#gallery .row {
 		display: -moz-box;
 		display: flex;
