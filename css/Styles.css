@@ -349,7 +349,9 @@ background-color: #111111;
 }
 }
  /* MOZILLA*/
-
+section, section .row .rate, aside {
+		float:left;
+	}
 	#gallery .row {
 		display: -moz-box;
 		display: flex;
