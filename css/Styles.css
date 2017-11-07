@@ -284,7 +284,6 @@ background-color: #111111;
 }
 #from_twitter img {
 	margin-right: 10px;
-	width: 40%;
 }
 #from_twitter p:not(:first-child) {
 	display: inline;
