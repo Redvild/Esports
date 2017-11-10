@@ -58,10 +58,9 @@ nav .row {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-.header_row_2 {
+.header_row_2 h3{
 	background-color: #111111;
 	padding: .4em 1em;
-	font-size: 1.8em;
 	font-weight: 700;
 }
 .header_row_3 {
@@ -69,7 +68,7 @@ nav .row {
 	font-size: .8em;
 	padding: .8em 1em;
 }
-header p {
+header p, h3 {
 	padding: 0;
 	margin: 0;
 	color: white;
@@ -351,6 +350,14 @@ background-color: #111111;
 	}
 		#main > .row {
 	flex-direction: column;
+}
+}
+@media all and (max-width:340px) {
+	img[alt="logo"] {
+		width:200px;
+	}
+	.header_row_1, .header_row_2, .header_row_3 {
+	width:100%;
 }
 }
  /* MOZILLA*/
