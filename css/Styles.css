@@ -107,7 +107,6 @@ section h3 {
 	padding-left: 1em;
 	letter-spacing: 3px;
 	font-weight: 700;
-	margin-left:1em;
 }
 section p {
 	word-wrap: break-word;
@@ -132,7 +131,7 @@ section p {
 	width: 80px;
 	padding: .2em;
 	margin-bottom: .5em;
-	vertical-align:middle;
+	vertical-align: middle;
 }
 .date_news, .read_more_news {
 	background-color: #d13f4a;
@@ -147,7 +146,7 @@ section p {
 	background-color: #2f81c0;
 }
 .read_more_news {
-	padding: .5em 0;
+	padding: .5em .2em;
 }
 .rate img, .rate p {
 	display: inline-block;
@@ -163,6 +162,14 @@ section p {
 /*ASIDE*/
 aside {
 	background-color: black;
+	width: 100%;
+}
+aside .row {
+	-moz-flex-direction: column;
+	flex-direction: column;
+}
+aside #gallery .row {
+	flex-direction: row;
 }
 #sponsors, #latest_video, #divisions, #recommend, #gallery, #streams, #from_twitter {
 	width: 100%;
@@ -284,7 +291,7 @@ background-color: #111111;
 }
 #from_twitter img {
 	margin-right: 10px;
-	width:40px;
+	width:30px;
 }
 #from_twitter p:not(:first-child) {
 	display: inline;
@@ -308,10 +315,7 @@ background-color: #111111;
 	margin:auto;
 	}
 }
-@media all and (max-width:991px) and (min-width:768px) {
-	.navbar-brand {
-	margin-left: -30px;
-}
+@media all and (max-width:991px) and (min-width:768px)
 	#gallery img {
 		width: 150%;
 	}
@@ -350,7 +354,8 @@ background-color: #111111;
 }
 }
  /* MOZILLA*/
-section, section .row .rate, aside {
+@-moz-document url-prefix() {
+	section, section .row .rate, aside {
 		float:left;
 	}
 	#gallery .row {
