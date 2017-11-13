@@ -307,7 +307,7 @@ background-color: #111111;
 	margin:auto;
 	}
 }
-@media all and (max-width:991px) and (min-width:768px)
+@media all and (max-width:991px) and (min-width:768px) {
 	#gallery img {
 		width: 150%;
 	}
