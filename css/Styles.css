@@ -106,7 +106,6 @@ section h3 {
 	padding-left: 1em;
 	letter-spacing: 3px;
 	font-weight: 700;
-	margin-left:1em;
 }
 section p {
 	word-wrap: break-word;
@@ -324,9 +323,6 @@ background-color: #111111;
 	}
 }
 @media all and (max-width:767px) and (min-width:576px) {
-	#main > .row {
-	flex-direction: column;
-	}
 	_:-o-prefocus, section{
 	width:100%;
 	}
@@ -342,9 +338,8 @@ background-color: #111111;
 	#gallery img {
 		width: 150%;
 	}
-		#main > .row {
-	flex-direction: column;
-}
+	section h3 {
+	margin-left:1em;
 }
 @media all and (max-width:340px) {
 	.header_row_1, .header_row_2, .header_row_3 {
