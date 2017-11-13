@@ -333,14 +333,15 @@ background-color: #111111;
 	width:100%;
 	margin: auto;
 	}
+	section h3 {
+	margin-left:1em;
+}
 }
 @media all and (max-width:575px) {
 	#gallery img {
 		width: 150%;
 	}
-	section h3 {
-	margin-left:1em;
-}
+
 @media all and (max-width:340px) {
 	.header_row_1, .header_row_2, .header_row_3 {
 	width:100%;
