@@ -163,13 +163,6 @@ aside {
 	background-color: black;
 	width: 100%;
 }
-aside .row {
-	-moz-flex-direction: column;
-	flex-direction: column;
-}
-aside #gallery .row {
-	flex-direction: row;
-}
 #sponsors, #latest_video, #divisions, #recommend, #gallery, #streams, #from_twitter {
 	width: 100%;
 	background-color: black;
