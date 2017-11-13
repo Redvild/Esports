@@ -346,16 +346,6 @@ background-color: #111111;
 	width:100%;
 }
 }
- /* MOZILLA*/
-@-moz-document url-prefix() {
-	section, section .row .rate, aside {
-		float:left;
-	}
-	#gallery .row {
-		display: -moz-box;
-		display: flex;
-	}
-}
 /*Opera 12*/
 @media all and (max-width:1600px) and (min-width:1200px) {
 _:-o-prefocus, aside > .row{
