@@ -7,8 +7,8 @@ body {
 }
 /*NAVBAR*/
 nav {
-	background: #111111;
-	color: white;
+	background: #111;
+	color: #fff;
 }
 nav .row {
 	width: 100%;
@@ -20,7 +20,7 @@ nav .row {
 	margin: auto;
 }
 .nav-link {
-	color: white;
+	color: #fff;
 	font-weight: bold;
 	font-size: .9em;
 }
@@ -30,7 +30,7 @@ nav .row {
 .navbar-brand p{
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: #fff;
 	font-weight: 600;
 }
 .navbar-brand p:first-of-type {
@@ -62,6 +62,7 @@ nav .row {
 	background-color: #111111;
 	padding: .4em 1em;
 	font-weight: 700;
+	font-size: 1.5em;
 }
 .header_row_3 {
 	background-color: #0a0908;
@@ -71,11 +72,11 @@ nav .row {
 header p {
 	padding: 0;
 	margin: 0;
-	color: white;
+	color: #fff;
 }
 /*SECTION*/
 section {
-	background-color: white;
+	background-color: #fff;
 }
 .caption_header {
 	padding: 1em;
@@ -90,7 +91,7 @@ section {
 .heading_image {
 	width: 100%;
 	margin: auto;
-	background: black;
+	background: #000;
 	text-align: center;
 }
 .figure-img {
@@ -123,7 +124,7 @@ section p {
 	font-size: .7em;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: white;
+	color: #fff;
 }
 .date_news, .views_news, .tweets_news, .facebook_news, .read_more_news {
 	display: inline-block;
@@ -160,12 +161,12 @@ section p {
 }
 /*ASIDE*/
 aside {
-	background-color: black;
+	background-color: #000;
 	width: 100%;
 }
 #sponsors, #latest_video, #divisions, #recommend, #gallery, #streams, #from_twitter {
 	width: 100%;
-	background-color: black;
+	background-color: #000;
 }
 aside .caption_header {
 	background-color: #181818;
@@ -192,7 +193,7 @@ aside #latest_video .caption_header {
 	display: inline-block;
 	float: right;
 	text-align: right;
-	color: white;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 	font-size: .9em;
@@ -237,7 +238,7 @@ background-color: #111111;
 	display: inline-block;
 	float: right;
 	text-align: right;
-	color: white;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 	font-size: .9em;
@@ -264,7 +265,7 @@ background-color: #111111;
 	float: left;
 }
 .streams_caption p:not(:first-child) {
-	color: white;
+	color: #fff;
 }
 .streams_caption p:nth-child(2) {
 	font-size: .7em;
