@@ -7,8 +7,8 @@ body {
 }
 /*NAVBAR*/
 nav {
-	background: #111;
-	color: #fff;
+	background: #111111;
+	color: white;
 }
 nav .row {
 	width: 100%;
@@ -20,7 +20,7 @@ nav .row {
 	margin: auto;
 }
 .nav-link {
-	color: #fff;
+	color: white;
 	font-weight: bold;
 	font-size: .9em;
 }
@@ -30,7 +30,7 @@ nav .row {
 .navbar-brand p{
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: white;
 	font-weight: 600;
 }
 .navbar-brand p:first-of-type {
@@ -47,7 +47,7 @@ nav .row {
 .header_row_1, .header_row_2, .header_row_3 {
 	display: inline-block;
 }
-#header_text {
+.header_text {
 	margin: 150px 0px 145px;
 }
 .header_row_1 {
@@ -72,11 +72,11 @@ nav .row {
 header p {
 	padding: 0;
 	margin: 0;
-	color: #fff;
+	color: white;
 }
 /*SECTION*/
 section {
-	background-color: #fff;
+	background-color: white;
 }
 .caption_header {
 	padding: 1em;
@@ -91,7 +91,7 @@ section {
 .heading_image {
 	width: 100%;
 	margin: auto;
-	background: #000;
+	background: black;
 	text-align: center;
 }
 .figure-img {
@@ -124,7 +124,7 @@ section p {
 	font-size: .7em;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #fff;
+	color: white;
 }
 .date_news, .views_news, .tweets_news, .facebook_news, .read_more_news {
 	display: inline-block;
@@ -161,58 +161,58 @@ section p {
 }
 /*ASIDE*/
 aside {
-	background-color: #000;
+	background-color: black;
 	width: 100%;
 }
-#sponsors, #latest_video, #divisions, #recommend, #gallery, #streams, #from_twitter {
+.sponsors, .latest_video, .divisions, .recommend, .gallery, .streams, .twitter {
 	width: 100%;
-	background-color: #000;
+	background-color: black;
 }
 aside .caption_header {
 	background-color: #181818;
 }
-aside #sponsors .caption_header {
+aside .sponsors .caption_header {
 	margin: 1em 0;
 }
-aside #latest_video .caption_header {
+aside .latest_video .caption_header {
 	margin: 0 0 1em;
 }
-#divisions li, #sponsors li, #from_twitter li {
+.divisions li, .sponsors li, .twitter li {
 	list-style: none;
 	display: block;
 	overflow: hidden;
 }
-#divisions li {
+.divisions li {
 	margin-bottom: .1em;
 }
-#divisions ul, #sponsors ul, #from_twitter ul {
+.divisions ul, .sponsors ul, .twitter ul {
 	margin: 0;
 	padding: 0;
 }
-#divisions p:not(:first-child) {
+.divisions p:not(:first-child) {
 	display: inline-block;
 	float: right;
 	text-align: right;
-	color: #fff;
+	color: white;
 	margin: 0;
 	padding: 0;
 	font-size: .9em;
 	text-transform: uppercase;
 	font-weight: 700;
 }
-#divisions .view_roster {
+.divisions .view_roster {
 	color:#d13f4a;
 	font-size: .8em;
 }
-#divisions li a, #sponsors li a {
+.divisions li a, .sponsors li a {
 	width: 100%;
 	height: 100%;
 	display: block;
 }
-#divisions li a:hover, #sponsors li a:hover {
+.divisions li a:hover, .sponsors li a:hover {
 background-color: #111111;
 }
-#latest_video img, #recommend img, #streams img {
+.latest_video img, .recommend img, .streams img {
 	overflow: hidden;
 	width: 100%;
 	border: 1px solid #171717;
@@ -225,31 +225,31 @@ background-color: #111111;
 	height: 315px;
 	margin: auto;
 }
-#gallery .row {
+.gallery .row {
 	overflow: hidden;
 }
-#gallery img {
+.gallery img {
 	margin-bottom: 4px;
 }
-#sponsors {
+.sponsors {
 	margin: 0;
 }
-#sponsors p:not(:first-child){
+.sponsors p:not(:first-child){
 	display: inline-block;
 	float: right;
 	text-align: right;
-	color: #fff;
+	color: white;
 	margin: 0;
 	padding: 0;
 	font-size: .9em;
 	text-transform: uppercase;
 	font-weight: 700;
 }
-#sponsors li {
+.sponsors li {
 	padding: .2em 0;
 	width: 100%;
 }
-#sponsors li:nth-child(2) {
+.sponsors li:nth-child(2) {
 	background-color: #0c0c0c;
 }
 .streams_caption p {
@@ -265,7 +265,7 @@ background-color: #111111;
 	float: left;
 }
 .streams_caption p:not(:first-child) {
-	color: #fff;
+	color: white;
 }
 .streams_caption p:nth-child(2) {
 	font-size: .7em;
@@ -276,16 +276,16 @@ background-color: #111111;
 	padding-left: .9em;
 	float: right;
 }
-#from_twitter li {
+.twitter li {
 	margin-bottom: .5em;
 	display: inline-flex;
 	align-items:center;
 	flex-direction: row;
 }
-#from_twitter img {
+.twitter img {
 	margin-right: 10px;
 }
-#from_twitter p:not(:first-child) {
+.twitter p:not(:first-child) {
 	display: inline;
 	color: #9c9c9c;
 	font-size: .6em;
@@ -294,7 +294,7 @@ background-color: #111111;
 	font-style: italic;
 }
 @media all and (max-width:1199px) and (min-width:992px) {
-	#gallery img {
+	.gallery img {
 		width: 150%;
 	}
 	_:-o-prefocus, aside {
@@ -307,14 +307,14 @@ background-color: #111111;
 	margin:auto;
 	}
 }
-@media all and (max-width:991px) and (min-width:768px) {
-	#gallery img {
+@media all and (max-width:991px) and (min-width:768px)
+	.gallery img {
 		width: 150%;
 	}
 	_:-o-prefocus, section{
 	width:100%;
 	}
-		_:-o-prefocus, #main{
+		_:-o-prefocus, main{
 	width:100%;
 	}
 	_:-o-prefocus, aside > .row{
@@ -323,29 +323,45 @@ background-color: #111111;
 	}
 }
 @media all and (max-width:767px) and (min-width:576px) {
+	main > .row {
+	flex-direction: column;
+	}
 	_:-o-prefocus, section{
 	width:100%;
 	}
-	_:-o-prefocus, #main{
+	_:-o-prefocus, main{
 	width:100%;
 	}
 	_:-o-prefocus, aside > .row{
 	width:100%;
 	margin: auto;
 	}
-	section h3 {
-	margin-left:1em;
-}
 }
 @media all and (max-width:575px) {
-	#gallery img {
+	.gallery img {
 		width: 150%;
 	}
-
+		main > .row {
+	flex-direction: column;
+}
+	section h3 {
+			margin-left: 1em;
+	}
+}
 @media all and (max-width:340px) {
 	.header_row_1, .header_row_2, .header_row_3 {
 	width:100%;
 }
+}
+ /* MOZILLA*/
+@-moz-document url-prefix() {
+	section, section .row .rate, aside {
+		float:left;
+	}
+	.gallery .row {
+		display: -moz-box;
+		display: flex;
+	}
 }
 /*Opera 12*/
 @media all and (max-width:1600px) and (min-width:1200px) {
